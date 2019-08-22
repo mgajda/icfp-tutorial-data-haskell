@@ -76,3 +76,6 @@ extra-deps:
 - hsparklines-0.1.0@sha256:9b7028b0c3337b729c19338461531a082de8c6ef0bf31cf2114be8607b10cb11,807
 - dataenc-0.14.0.7@sha256:60bc0e50bb8098cf885b62828ca44bab5759bb86455886be58efa4433af0d749,1651
 - time-units-1.0.0@sha256:27cf54091c4a0ca73d504fc11d5c31ab4041d17404fe3499945e2055697746c1,928
+nix:
+  default: false
+  packages: [pkgconfig, cairo, zlib, pango, xorg.xproto, xorg.libX11, gtk2, gtk3]
