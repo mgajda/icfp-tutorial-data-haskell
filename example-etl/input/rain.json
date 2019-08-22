@@ -1,0 +1,1343 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "rdtp-hzy3",
+      "name" : "Observed Monthly Rain Gauge Accumulations - Oct 2002 to May 2017",
+      "attribution" : "City of Seattle",
+      "averageRating" : 0,
+      "category" : "City Business",
+      "createdAt" : 1518646693,
+      "description" : "Monthly accumulations for SPU's rain gauges located throughout Seattle city limits.  \r\n\r\nAttached in the 'About' section is an image of the rain gauge locations .\r\n\r\nDisclaimer:  This data set has been provided by either DNRP or SPU as a public information service. Every reasonable effort has been made to assure the accuracy of this data. However, the data being provided herein are intended for informational purposes only. No guarantee is made as to the accuracy of the data and it should not be relied upon for any purpose other than general information. Furthermore, DNRP and SPU assumes no liability for any errors, omissions, or inaccuracies in the information provided regardless of the cause of such or for any decision made, action taken, or action not taken by the user in reliance upon any data provided herein.\r\n\r\nRCW 42.56.060\r\n\r\nDisclaimer of public liability.\r\n\r\nNo public agency, public official, public employee, or custodian shall be liable, nor shall a cause of action exist, for any loss or damage based upon the release of a public record if the public agency, public official, public employee, or custodian acted in good faith in attempting to comply with the provisions of this chapter.",
+      "displayType" : "table",
+      "downloadCount" : 2290,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1530559955,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "locale" : "en_US",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 28326203,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1522342587,
+      "publicationGroup" : 14880714,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1522342542,
+      "rowsUpdatedBy" : "c2su-2yrf",
+      "tableId" : 14967108,
+      "totalTimesRated" : 0,
+      "viewCount" : 610,
+      "viewLastModified" : 1557954914,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1522342587,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 331120,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1522342587,
+        "workflowId" : 623,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "c2su-2yrf",
+          "displayName" : "Bibler, Jonathan"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 351937313,
+        "name" : "Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "date",
+        "position" : 1,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 61303154,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "2017-05-31T00:00:00",
+          "non_null" : 175,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2016-07-31T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2016-08-31T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2016-09-30T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2016-10-31T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2016-11-30T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "2016-12-31T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "2017-01-31T00:00:00",
+            "count" : 14
+          }, {
+            "item" : "2017-02-28T00:00:00",
+            "count" : 13
+          }, {
+            "item" : "2017-03-31T00:00:00",
+            "count" : 12
+          }, {
+            "item" : "2017-04-30T00:00:00",
+            "count" : 11
+          }, {
+            "item" : "2017-05-31T00:00:00",
+            "count" : 10
+          } ],
+          "smallest" : "2002-11-30T00:00:00"
+        },
+        "format" : {
+          "view" : "date"
+        }
+      }, {
+        "id" : 351937314,
+        "name" : "RG01",
+        "dataTypeName" : "number",
+        "fieldName" : "rg01",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303155,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "10.92",
+          "non_null" : 175,
+          "average" : "3.155085714285714",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.61",
+            "count" : 20
+          }, {
+            "item" : "0.34",
+            "count" : 19
+          }, {
+            "item" : "1.85",
+            "count" : 18
+          }, {
+            "item" : "10.53",
+            "count" : 17
+          }, {
+            "item" : "9.03",
+            "count" : 16
+          }, {
+            "item" : "4.54",
+            "count" : 15
+          }, {
+            "item" : "4.24",
+            "count" : 14
+          }, {
+            "item" : "8.36",
+            "count" : 13
+          }, {
+            "item" : "7.19",
+            "count" : 12
+          }, {
+            "item" : "4.84",
+            "count" : 11
+          }, {
+            "item" : "0",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "552.14"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937315,
+        "name" : "RG02",
+        "dataTypeName" : "number",
+        "fieldName" : "rg02",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303156,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "11.79",
+          "non_null" : 175,
+          "average" : "3.102857142857143",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.94",
+            "count" : 20
+          }, {
+            "item" : "0.03",
+            "count" : 19
+          }, {
+            "item" : "1.5",
+            "count" : 18
+          }, {
+            "item" : "10.4",
+            "count" : 17
+          }, {
+            "item" : "8.17",
+            "count" : 16
+          }, {
+            "item" : "3.75",
+            "count" : 15
+          }, {
+            "item" : "4.08",
+            "count" : 14
+          }, {
+            "item" : "8.52",
+            "count" : 13
+          }, {
+            "item" : "6.77",
+            "count" : 12
+          }, {
+            "item" : "4.07",
+            "count" : 11
+          }, {
+            "item" : "0",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "543.00"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937316,
+        "name" : "RG03",
+        "dataTypeName" : "number",
+        "fieldName" : "rg03",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303157,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "12.18",
+          "non_null" : 175,
+          "average" : "3.047142857142857",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.9",
+            "count" : 20
+          }, {
+            "item" : "2.2",
+            "count" : 19
+          }, {
+            "item" : "1.37",
+            "count" : 18
+          }, {
+            "item" : "9.86",
+            "count" : 17
+          }, {
+            "item" : "8.07",
+            "count" : 16
+          }, {
+            "item" : "3.69",
+            "count" : 15
+          }, {
+            "item" : "4.03",
+            "count" : 14
+          }, {
+            "item" : "8.18",
+            "count" : 13
+          }, {
+            "item" : "6.59",
+            "count" : 12
+          }, {
+            "item" : "3.98",
+            "count" : 11
+          }, {
+            "item" : "0.01",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "533.25"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937317,
+        "name" : "RG04",
+        "dataTypeName" : "number",
+        "fieldName" : "rg04",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303158,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "12.26",
+          "non_null" : 175,
+          "average" : "3.12",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1.64",
+            "count" : 20
+          }, {
+            "item" : "0.22",
+            "count" : 19
+          }, {
+            "item" : "1.47",
+            "count" : 18
+          }, {
+            "item" : "9.92",
+            "count" : 17
+          }, {
+            "item" : "7.49",
+            "count" : 16
+          }, {
+            "item" : "4.19",
+            "count" : 15
+          }, {
+            "item" : "3.95",
+            "count" : 14
+          }, {
+            "item" : "8.11",
+            "count" : 13
+          }, {
+            "item" : "6.71",
+            "count" : 12
+          }, {
+            "item" : "4.32",
+            "count" : 11
+          }, {
+            "item" : "0.01",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "546.00"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937318,
+        "name" : "RG05",
+        "dataTypeName" : "number",
+        "fieldName" : "rg05",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303159,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "11.78",
+          "non_null" : 175,
+          "average" : "2.941771428571429",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.66",
+            "count" : 20
+          }, {
+            "item" : "0.04",
+            "count" : 19
+          }, {
+            "item" : "0.69",
+            "count" : 18
+          }, {
+            "item" : "9.74",
+            "count" : 17
+          }, {
+            "item" : "6.7",
+            "count" : 16
+          }, {
+            "item" : "3.32",
+            "count" : 15
+          }, {
+            "item" : "4.03",
+            "count" : 14
+          }, {
+            "item" : "8.49",
+            "count" : 13
+          }, {
+            "item" : "6.31",
+            "count" : 12
+          }, {
+            "item" : "3.03",
+            "count" : 11
+          }, {
+            "item" : "0",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "514.81"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937319,
+        "name" : "RG07",
+        "dataTypeName" : "number",
+        "fieldName" : "rg07",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303160,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "10.84",
+          "non_null" : 175,
+          "average" : "3.187314285714286",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1.57",
+            "count" : 20
+          }, {
+            "item" : "1.11",
+            "count" : 19
+          }, {
+            "item" : "6.54",
+            "count" : 18
+          }, {
+            "item" : "10.45",
+            "count" : 17
+          }, {
+            "item" : "8.37",
+            "count" : 16
+          }, {
+            "item" : "4.21",
+            "count" : 15
+          }, {
+            "item" : "4.51",
+            "count" : 14
+          }, {
+            "item" : "8.08",
+            "count" : 13
+          }, {
+            "item" : "7",
+            "count" : 12
+          }, {
+            "item" : "4.66",
+            "count" : 11
+          }, {
+            "item" : "0",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "557.78"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937320,
+        "name" : "RG08",
+        "dataTypeName" : "number",
+        "fieldName" : "rg08",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303161,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "10.61",
+          "non_null" : 175,
+          "average" : "3.020857142857143",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.62",
+            "count" : 20
+          }, {
+            "item" : "0.09",
+            "count" : 19
+          }, {
+            "item" : "1.34",
+            "count" : 18
+          }, {
+            "item" : "9.19",
+            "count" : 17
+          }, {
+            "item" : "7.52",
+            "count" : 16
+          }, {
+            "item" : "3.92",
+            "count" : 15
+          }, {
+            "item" : "4",
+            "count" : 14
+          }, {
+            "item" : "7.9",
+            "count" : 13
+          }, {
+            "item" : "6.54",
+            "count" : 12
+          }, {
+            "item" : "3.75",
+            "count" : 11
+          }, {
+            "item" : "0",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "528.65"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937321,
+        "name" : "RG09",
+        "dataTypeName" : "number",
+        "fieldName" : "rg09",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303162,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "11.21",
+          "non_null" : 175,
+          "average" : "3.246285714285714",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.62",
+            "count" : 20
+          }, {
+            "item" : "0.17",
+            "count" : 19
+          }, {
+            "item" : "1.27",
+            "count" : 18
+          }, {
+            "item" : "9.14",
+            "count" : 17
+          }, {
+            "item" : "7.38",
+            "count" : 16
+          }, {
+            "item" : "4.16",
+            "count" : 15
+          }, {
+            "item" : "4.19",
+            "count" : 14
+          }, {
+            "item" : "8.45",
+            "count" : 13
+          }, {
+            "item" : "7.2",
+            "count" : 12
+          }, {
+            "item" : "4.58",
+            "count" : 11
+          }, {
+            "item" : "0.02",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "568.10"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937322,
+        "name" : "RG10_30",
+        "dataTypeName" : "number",
+        "fieldName" : "rg10_30",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303163,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "14.68",
+          "non_null" : 175,
+          "average" : "3.436571428571429",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.46",
+            "count" : 20
+          }, {
+            "item" : "0.02",
+            "count" : 19
+          }, {
+            "item" : "0.87",
+            "count" : 18
+          }, {
+            "item" : "10.37",
+            "count" : 17
+          }, {
+            "item" : "7.49",
+            "count" : 16
+          }, {
+            "item" : "3.74",
+            "count" : 15
+          }, {
+            "item" : "3.95",
+            "count" : 14
+          }, {
+            "item" : "9.63",
+            "count" : 13
+          }, {
+            "item" : "7.33",
+            "count" : 12
+          }, {
+            "item" : "4.1",
+            "count" : 11
+          }, {
+            "item" : "0.14",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "601.40"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937323,
+        "name" : "RG11",
+        "dataTypeName" : "number",
+        "fieldName" : "rg11",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303164,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "11.02",
+          "non_null" : 175,
+          "average" : "2.932342857142857",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0",
+            "count" : 20
+          }, {
+            "item" : "0.75",
+            "count" : 19
+          }, {
+            "item" : "0.98",
+            "count" : 18
+          }, {
+            "item" : "9.76",
+            "count" : 17
+          }, {
+            "item" : "7.85",
+            "count" : 16
+          }, {
+            "item" : "3.4",
+            "count" : 15
+          }, {
+            "item" : "4.01",
+            "count" : 14
+          }, {
+            "item" : "8.91",
+            "count" : 13
+          }, {
+            "item" : "6.53",
+            "count" : 12
+          }, {
+            "item" : "4.44",
+            "count" : 11
+          }, {
+            "item" : "0.01",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "513.16"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937324,
+        "name" : "RG12",
+        "dataTypeName" : "number",
+        "fieldName" : "rg12",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303165,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "11.4",
+          "non_null" : 175,
+          "average" : "3.191371428571429",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1.01",
+            "count" : 20
+          }, {
+            "item" : "0.13",
+            "count" : 19
+          }, {
+            "item" : "1.29",
+            "count" : 18
+          }, {
+            "item" : "10.32",
+            "count" : 17
+          }, {
+            "item" : "8.14",
+            "count" : 16
+          }, {
+            "item" : "3.78",
+            "count" : 15
+          }, {
+            "item" : "4.2",
+            "count" : 14
+          }, {
+            "item" : "8.64",
+            "count" : 13
+          }, {
+            "item" : "7.15",
+            "count" : 12
+          }, {
+            "item" : "4.34",
+            "count" : 11
+          }, {
+            "item" : "0",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "558.49"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937325,
+        "name" : "RG14",
+        "dataTypeName" : "number",
+        "fieldName" : "rg14",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303166,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "11.83",
+          "non_null" : 175,
+          "average" : "3.077714285714286",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.64",
+            "count" : 20
+          }, {
+            "item" : "0.06",
+            "count" : 19
+          }, {
+            "item" : "0.97",
+            "count" : 18
+          }, {
+            "item" : "11.03",
+            "count" : 17
+          }, {
+            "item" : "8.06",
+            "count" : 16
+          }, {
+            "item" : "3.89",
+            "count" : 15
+          }, {
+            "item" : "4.28",
+            "count" : 14
+          }, {
+            "item" : "9.1",
+            "count" : 13
+          }, {
+            "item" : "7.02",
+            "count" : 12
+          }, {
+            "item" : "3.92",
+            "count" : 11
+          }, {
+            "item" : "0.02",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "538.60"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937326,
+        "name" : "RG15",
+        "dataTypeName" : "number",
+        "fieldName" : "rg15",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303167,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "10.34",
+          "non_null" : 175,
+          "average" : "2.863485714285714",
+          "null" : 0,
+          "top" : [ {
+            "item" : "4.57",
+            "count" : 20
+          }, {
+            "item" : "0.01",
+            "count" : 19
+          }, {
+            "item" : "0.95",
+            "count" : 18
+          }, {
+            "item" : "10.34",
+            "count" : 17
+          }, {
+            "item" : "7.49",
+            "count" : 16
+          }, {
+            "item" : "3.7",
+            "count" : 15
+          }, {
+            "item" : "4.06",
+            "count" : 14
+          }, {
+            "item" : "8.71",
+            "count" : 13
+          }, {
+            "item" : "6.64",
+            "count" : 12
+          }, {
+            "item" : "3.52",
+            "count" : 11
+          }, {
+            "item" : "0.03",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "501.11"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937327,
+        "name" : "RG16",
+        "dataTypeName" : "number",
+        "fieldName" : "rg16",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303168,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "12.98",
+          "non_null" : 175,
+          "average" : "3.192457142857143",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.19",
+            "count" : 20
+          }, {
+            "item" : "0",
+            "count" : 19
+          }, {
+            "item" : "10.36",
+            "count" : 18
+          }, {
+            "item" : "7.49",
+            "count" : 17
+          }, {
+            "item" : "3.74",
+            "count" : 16
+          }, {
+            "item" : "3.95",
+            "count" : 15
+          }, {
+            "item" : "8.84",
+            "count" : 14
+          }, {
+            "item" : "6.92",
+            "count" : 13
+          }, {
+            "item" : "3.94",
+            "count" : 12
+          }, {
+            "item" : "0.02",
+            "count" : 11
+          } ],
+          "smallest" : "0",
+          "sum" : "558.68"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937328,
+        "name" : "RG17",
+        "dataTypeName" : "number",
+        "fieldName" : "rg17",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303169,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "13.19",
+          "non_null" : 175,
+          "average" : "3.281371428571429",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1.34",
+            "count" : 20
+          }, {
+            "item" : "0.04",
+            "count" : 19
+          }, {
+            "item" : "0.68",
+            "count" : 18
+          }, {
+            "item" : "8.1",
+            "count" : 17
+          }, {
+            "item" : "7.43",
+            "count" : 16
+          }, {
+            "item" : "3.67",
+            "count" : 15
+          }, {
+            "item" : "3.98",
+            "count" : 14
+          }, {
+            "item" : "8.2",
+            "count" : 13
+          }, {
+            "item" : "5.7",
+            "count" : 12
+          }, {
+            "item" : "3.22",
+            "count" : 11
+          }, {
+            "item" : "0.01",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "574.24"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937329,
+        "name" : "RG18",
+        "dataTypeName" : "number",
+        "fieldName" : "rg18",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303170,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "13.4",
+          "non_null" : 175,
+          "average" : "3.357314285714286",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.48",
+            "count" : 20
+          }, {
+            "item" : "0.08",
+            "count" : 19
+          }, {
+            "item" : "1.07",
+            "count" : 18
+          }, {
+            "item" : "10.51",
+            "count" : 17
+          }, {
+            "item" : "7.95",
+            "count" : 16
+          }, {
+            "item" : "3.93",
+            "count" : 15
+          }, {
+            "item" : "4.02",
+            "count" : 14
+          }, {
+            "item" : "8.76",
+            "count" : 13
+          }, {
+            "item" : "7.38",
+            "count" : 12
+          }, {
+            "item" : "4.31",
+            "count" : 11
+          }, {
+            "item" : "0.06",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "587.53"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      }, {
+        "id" : 351937330,
+        "name" : "RG20_25",
+        "dataTypeName" : "number",
+        "fieldName" : "rg20_25",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 61303171,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "11.64",
+          "non_null" : 175,
+          "average" : "3.157828571428571",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1.08",
+            "count" : 20
+          }, {
+            "item" : "5.92",
+            "count" : 19
+          }, {
+            "item" : "1.86",
+            "count" : 18
+          }, {
+            "item" : "11.13",
+            "count" : 17
+          }, {
+            "item" : "7.6",
+            "count" : 16
+          }, {
+            "item" : "3.7",
+            "count" : 15
+          }, {
+            "item" : "4.02",
+            "count" : 14
+          }, {
+            "item" : "9.43",
+            "count" : 13
+          }, {
+            "item" : "6.68",
+            "count" : 12
+          }, {
+            "item" : "4.23",
+            "count" : 11
+          }, {
+            "item" : "0",
+            "count" : 10
+          } ],
+          "smallest" : "0",
+          "sum" : "552.62"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ","
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "attachments" : [ {
+          "filename" : "SPU_DWW_RGs.jpg",
+          "assetId" : "43a2585b-4300-4103-96a7-3f06a44cf96f",
+          "blobId" : "",
+          "name" : "SPU_DWW_RGs.jpg"
+        } ],
+        "custom_fields" : {
+          "Department" : {
+            "Department" : "Seattle Public Utilities"
+          },
+          "Refresh Frequency" : {
+            "Frequency" : "Quarterly"
+          }
+        },
+        "rowIdentifier" : "0",
+        "rowLabel" : "monthly rain gauge accumulations",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "page" : true,
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "c2su-2yrf",
+        "disabledAt" : 1543606100,
+        "displayName" : "Bibler, Jonathan",
+        "screenName" : "Bibler, Jonathan",
+        "type" : "interactive"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "c2su-2yrf",
+        "disabledAt" : 1543606100,
+        "displayName" : "Bibler, Jonathan",
+        "screenName" : "Bibler, Jonathan",
+        "type" : "interactive"
+      },
+      "tags" : [ "rain gauge", "rain", "rainfall", "accumulation", "bucket tip", "precipitation", "spu", "drainage and wastewater", "drainage", "dww", "seattle public utilities", "environment", "weather", "seattle" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-cd36~kpsj_2udf", "00000000-0000-0000-ADCF-586D63CEDFDB", 0, 1520622150, null, 1520622150, null, "{ }", "2002-11-30T00:00:00", "2.43", "3.36", "2.88", "2.48", "0.78", "2.49", "2.57", "2.93", "3.25", "2.38", "2.59", "2.46", "3.06", "2.69", "3.59", "3.17", "3.15" ]
+, [ "row-qpkz.sihx-rkx3", "00000000-0000-0000-2F52-7C54C5B58226", 0, 1520622150, null, 1520622150, null, "{ }", "2002-12-31T00:00:00", "4.31", "1.4", "5.46", "4.8", "1.99", "5.06", "2.48", "2.35", "6.48", "4.95", "5.71", "3.57", "5.77", "3.28", "5.77", "6.02", "5.6" ]
+, [ "row-xp59-bsc8-kdtk", "00000000-0000-0000-6202-810A7CBD6AF1", 0, 1520622150, null, 1520622150, null, "{ }", "2003-01-31T00:00:00", "6.55", "7.35", "5.84", "6.48", "7.57", "4.47", "7.39", "7.31", "5.42", "6.58", "7.58", "5.72", "7.47", "8.32", "9.69", "7.66", "7.17" ]
+, [ "row-uy8s.eirf-29bu", "00000000-0000-0000-B069-9FD4D5A71D5D", 0, 1520622150, null, 1520622150, null, "{ }", "2003-02-28T00:00:00", "1.61", "1.81", "1.7", "1.49", "1.11", "1.5", "1.56", "1.73", "1.18", "1.37", "1.47", "1.33", "1.19", "1.21", "1.52", "1.09", "1.34" ]
+, [ "row-9xji.h53s~bb7c", "00000000-0000-0000-B5AE-F0AF63B162E8", 0, 1520622150, null, 1520622150, null, "{ }", "2003-03-31T00:00:00", "5.01", "5.88", "3.12", "5.01", "5.09", "5.15", "5.14", "5.01", "5.68", "4.01", "5.16", "4.57", "5.5", "5.61", "5.62", "5.49", "4.89" ]
+, [ "row-3ruu~qwgn~zpqy", "00000000-0000-0000-A7A6-2CD84E47A011", 0, 1520622150, null, 1520622150, null, "{ }", "2003-04-30T00:00:00", "2.27", "3.15", "2.69", "2.56", "2.2", "2.49", "2.5", "1.45", "1.78", "2.34", "2.44", "2.14", "2.47", "1.33", "3.31", "1.74", "2.01" ]
+, [ "row-9te2-fhcn.fvpj", "00000000-0000-0000-E764-2D87E9A261C3", 0, 1520622150, null, 1520622150, null, "{ }", "2003-05-31T00:00:00", "0.91", "1.49", "1.51", "1.4", "0.43", "1.59", "0.98", "0.93", "0.83", "1.45", "1.63", "0.81", "0.23", "0.58", "0.77", "0.85", "1.47" ]
+, [ "row-pccs_ehxv_zuz5", "00000000-0000-0000-8B5C-D5F151DDCD4F", 0, 1520622150, null, 1520622150, null, "{ }", "2003-06-30T00:00:00", "0.49", "0.89", "0.4", "0.34", "0.57", "0.94", "0.75", "0.79", "0.33", "0.82", "0.87", "0.72", "0.27", "0.52", "0.66", "0.59", "0.87" ]
+, [ "row-2zsc-w5n8_urdv", "00000000-0000-0000-36DA-D813782B7659", 0, 1520622150, null, 1520622150, null, "{ }", "2003-07-31T00:00:00", "0.12", "0.18", "0.16", "0.51", "0.17", "0.89", "0.21", "0.06", "0.14", "0.2", "0.21", "0.15", "0.14", "0.21", "0.17", "0.01", "0" ]
+, [ "row-t4nx_zswd.gien", "00000000-0000-0000-EA7D-A33C7A11B145", 0, 1520622150, null, 1520622150, null, "{ }", "2003-08-31T00:00:00", "0.33", "0.46", "0.29", "0.26", "0.37", "1.33", "0.57", "0.22", "0.68", "0.3", "0.57", "0.47", "0.18", "0.3", "0.49", "0.25", "0.24" ]
+, [ "row-avnp_mkgx_yt8y", "00000000-0000-0000-F0B4-253CBFC22AEB", 0, 1520622150, null, 1520622150, null, "{ }", "2003-09-30T00:00:00", "0.97", "0.2", "0.39", "0.91", "0.66", "1.92", "0.63", "0.99", "0.4", "0.73", "0.63", "0.79", "0.35", "1.3", "1.14", "1.22", "0.54" ]
+, [ "row-any5_y2qn~dx4d", "00000000-0000-0000-A478-8D0878DFC4EA", 0, 1520622150, null, 1520622150, null, "{ }", "2003-10-31T00:00:00", "6.32", "7.75", "6.33", "5.23", "6.59", "6.72", "6.99", "7.04", "7.39", "6.64", "6.99", "6.52", "3.66", "7.47", "8.41", "7.47", "7.14" ]
+, [ "row-25xj~2big-shni", "00000000-0000-0000-C3B8-94435369ED19", 0, 1520622150, null, 1520622150, null, "{ }", "2003-11-30T00:00:00", "2.54", "4.51", "5.09", "5.15", "5.76", "6.47", "5.93", "5.63", "4.71", "5.3", "5.93", "4.8", "3.43", "6.08", "7.45", "6.08", "5.71" ]
+, [ "row-6ezu-hfny_k862", "00000000-0000-0000-7709-6F14725EEC8B", 0, 1520622150, null, 1520622150, null, "{ }", "2003-12-31T00:00:00", "3.19", "3.9", "3.04", "2.69", "3.14", "4.68", "4.58", "4.58", "4.13", "3.72", "4.58", "2.93", "3.31", "4.98", "4.47", "4.32", "3.63" ]
+, [ "row-gi6j-a39h~dv7i", "00000000-0000-0000-E312-BE5FF00C4735", 0, 1520622150, null, 1520622150, null, "{ }", "2004-01-31T00:00:00", "4.23", "5.88", "4.79", "5.88", "4.81", "5.43", "5.93", "5.93", "5.04", "6.67", "6.77", "5.22", "4.96", "4.96", "5.86", "5.31", "5.83" ]
+, [ "row-yv6v_u583-3aea", "00000000-0000-0000-7DBF-FF319D6A6BE2", 0, 1520622150, null, 1520622150, null, "{ }", "2004-02-29T00:00:00", "2.19", "2.75", "2.41", "2.75", "2.65", "2.08", "2.56", "2.56", "2.59", "2.45", "2.45", "2.23", "2.76", "2.79", "3.17", "2.53", "2.49" ]
+, [ "row-vjni~av37_i7fg", "00000000-0000-0000-03FC-8CD805816050", 0, 1520622150, null, 1520622150, null, "{ }", "2004-03-31T00:00:00", "1.72", "1.95", "1.85", "1.95", "1.68", "1.72", "1.7", "1.7", "2.21", "1.93", "1.93", "2.13", "1.97", "1.97", "2.1", "2.5", "2.03" ]
+, [ "row-n3yp~v735.qe8y", "00000000-0000-0000-2556-C5ED5750F515", 0, 1520622150, null, 1520622150, null, "{ }", "2004-04-30T00:00:00", "0.55", "0.76", "0.64", "0.76", "0.38", "0.55", "0.55", "0.55", "0.38", "0.7", "0.7", "0.53", "0.38", "0.38", "0.38", "0.38", "0.47" ]
+, [ "row-7y9g~tnhj.8zef", "00000000-0000-0000-54D7-FEA09A8A2678", 0, 1520622150, null, 1520622150, null, "{ }", "2004-05-31T00:00:00", "2.54", "2.21", "2.46", "2.21", "1.94", "2.31", "2.59", "2.59", "1.46", "2.86", "2.86", "2.1", "2.58", "1.87", "1.74", "2.84", "2.68" ]
+, [ "row-h6uw-8bsv.mwqe", "00000000-0000-0000-A35F-4CAB92FF8B56", 0, 1520622150, null, 1520622150, null, "{ }", "2004-06-30T00:00:00", "0.36", "0.73", "0.72", "0.73", "0.57", "0.36", "0.86", "0.86", "0.57", "0.63", "0.63", "0.57", "0.54", "0.57", "0.57", "0.57", "0.63" ]
+, [ "row-w6uv-tmh3-krqy", "00000000-0000-0000-B3AF-D15109A20449", 0, 1520622150, null, 1520622150, null, "{ }", "2004-07-31T00:00:00", "0.24", "0.32", "0.3", "0.32", "0.3", "0.24", "0.35", "0.35", "0.3", "0.35", "0.35", "0.3", "0.3", "0.3", "0.3", "0.3", "0.3" ]
+, [ "row-aiwt_rrfs~424g", "00000000-0000-0000-8E6D-C08C6421AB3E", 0, 1520622150, null, 1520622150, null, "{ }", "2004-08-31T00:00:00", "2.3", "2.42", "3.2", "2.2", "2.89", "3.03", "3.03", "3.03", "2.93", "3.03", "3.03", "2.89", "2.75", "2.93", "2.93", "2.9", "3.2" ]
+, [ "row-z3k2.b7wc_xszi", "00000000-0000-0000-5AE0-72DCAFE0FCB5", 0, 1520622150, null, 1520622150, null, "{ }", "2004-09-30T00:00:00", "1.37", "2.11", "1.91", "1.83", "2.24", "1.93", "1.93", "1.93", "2.24", "1.57", "1.57", "2.24", "2.24", "2.24", "2.24", "2.24", "1.35" ]
+, [ "row-9szt~saaq.hxg4", "00000000-0000-0000-0ACF-04BDF47D4D9D", 0, 1520622150, null, 1520622150, null, "{ }", "2004-10-31T00:00:00", "2.12", "2.62", "2.07", "2.36", "2", "2.53", "2.78", "2.81", "2.05", "1.85", "2.59", "1.44", "1.77", "2.12", "2.38", "2.08", "1.7" ]
+, [ "row-9g5m_gitd_qbd8", "00000000-0000-0000-FAC9-46DBCB8459C7", 0, 1520622150, null, 1520622150, null, "{ }", "2004-11-30T00:00:00", "2.16", "3.15", "2.77", "2.78", "1.05", "2.49", "2.56", "3.15", "2.73", "2.28", "2.56", "2.04", "2.48", "2.58", "2.76", "3.01", "2.77" ]
+, [ "row-92eg.kbsy_58z3", "00000000-0000-0000-A73B-35730F1F4C05", 0, 1520622150, null, 1520622150, null, "{ }", "2004-12-31T00:00:00", "4.5", "4.83", "4.79", "4.76", "4.2", "5.02", "4.77", "5.15", "4.16", "4.49", "4.77", "4.2", "4.79", "4.75", "4.79", "4.83", "4.72" ]
+, [ "row-cuxt~7rq7~9rry", "00000000-0000-0000-A548-021FD3312DED", 0, 1520622150, null, 1520622150, null, "{ }", "2005-01-31T00:00:00", "2.33", "2.95", "1.47", "2.8", "3.82", "2.86", "3.33", "3.39", "4.24", "3.03", "3.3", "3.46", "3.46", "3.66", "3.91", "2.11", "3.11" ]
+, [ "row-8x5a_j2ux~meme", "00000000-0000-0000-A40B-D019289A2D2D", 0, 1520622150, null, 1520622150, null, "{ }", "2005-02-28T00:00:00", "0.8", "1.03", "0.92", "0.95", "1.1", "0.93", "0.88", "0.97", "1.17", "0.77", "0.87", "0.51", "0.51", "1.12", "1.33", "1.08", "0.9" ]
+, [ "row-9c4t-sq73_vfah", "00000000-0000-0000-1CA5-6F2AEF6E83F8", 0, 1520622150, null, 1520622150, null, "{ }", "2005-03-31T00:00:00", "2.59", "5.74", "2.94", "2.39", "3.32", "2.79", "2.84", "3.14", "3.86", "2.62", "2.48", "3.36", "3.36", "3", "3.51", "3.03", "2.81" ]
+, [ "row-vcx3~faz7_j25r", "00000000-0000-0000-E487-06FA36E13944", 0, 1520622150, null, 1520622150, null, "{ }", "2005-04-30T00:00:00", "2.68", "2.42", "2.73", "2.56", "4.03", "2.61", "3.03", "3.06", "3.72", "2.34", "3.24", "0.21", "0.21", "3.72", "4.14", "3.77", "2.76" ]
+, [ "row-bct8.rtdd_p5mi", "00000000-0000-0000-01B9-7FE5B7406B8B", 0, 1520622150, null, 1520622150, null, "{ }", "2005-05-31T00:00:00", "2.23", "2.69", "2.74", "2.45", "3.4", "2.44", "2.88", "2.69", "3.06", "2.56", "1.98", "3.36", "3.36", "2.47", "3.37", "3.09", "2.98" ]
+, [ "row-psr5.rv7d.3myz", "00000000-0000-0000-82B6-C4AF34867D05", 0, 1520622150, null, 1520622150, null, "{ }", "2005-06-30T00:00:00", "2", "2.31", "1.6", "1.79", "2.01", "2", "1.45", "1.85", "3.57", "1.31", "1.44", "1.4", "1.4", "2.53", "2.18", "2.4", "1.49" ]
+, [ "row-z3ja-bbam-wpc6", "00000000-0000-0000-2FBC-FE640183AC9B", 0, 1520622150, null, 1520622150, null, "{ }", "2005-07-31T00:00:00", "0.66", "0.89", "0.75", "0.7", "0.75", "0.56", "0.32", "0.84", "1", "0.6", "0.53", "0.42", "0.42", "0.81", "1.04", "0.95", "0.94" ]
+, [ "row-d5xt.3cd7-xd68", "00000000-0000-0000-4737-B799713CF088", 0, 1520622150, null, 1520622150, null, "{ }", "2005-08-31T00:00:00", "0.27", "0.29", "0.06", "0.27", "0.57", "0.18", "0.53", "0.58", "0.44", "0.13", "0.56", "0.07", "0.07", "0.39", "0.72", "0.49", "0.18" ]
+, [ "row-md4z-w3wx-fhwd", "00000000-0000-0000-074A-AA5C23CE3E74", 0, 1520622150, null, 1520622150, null, "{ }", "2005-09-30T00:00:00", "0.99", "0.92", "1.41", "1.21", "0.33", "1.06", "0.84", "0.82", "1.02", "0.96", "1.22", "0.71", "0.71", "0.85", "0.92", "1.25", "1.55" ]
+, [ "row-ivuz-mnaq-uv3b", "00000000-0000-0000-3445-3B3A136627CD", 0, 1520622150, null, 1520622150, null, "{ }", "2005-10-31T00:00:00", "2.44", "2.41", "2.77", "2.42", "2.15", "2.38", "2.37", "2.34", "2.78", "2.02", "2.72", "1.39", "1.39", "0.66", "2.72", "2.41", "2.05" ]
+, [ "row-n8sm~iafr-4wxh", "00000000-0000-0000-9A03-2C9C925578B1", 0, 1520622150, null, 1520622150, null, "{ }", "2005-11-30T00:00:00", "4.38", "4.86", "5.01", "4.29", "4.13", "4.45", "4.62", "4.57", "6.13", "4.45", "5.6", "3.18", "3.18", "3.9", "5.66", "5.15", "4.81" ]
+, [ "row-jyex_up5c_eyqz", "00000000-0000-0000-DB1C-AD00CF4484F6", 0, 1520622150, null, 1520622150, null, "{ }", "2005-12-31T00:00:00", "6.55", "7.1", "6.44", "6.31", "6.02", "6.94", "7.34", "7.4", "7.06", "6.16", "8.09", "6.36", "6.36", "6.51", "7.6", "6.55", "6.56" ]
+, [ "row-gekb_m3r5_fvrv", "00000000-0000-0000-13A7-F00BE7516198", 0, 1520622150, null, 1520622150, null, "{ }", "2006-01-31T00:00:00", "9.02", "9.71", "9.52", "8.84", "9.3", "9.07", "9.38", "9.37", "12.61", "8.67", "10.11", "4.65", "4.65", "10.48", "11.66", "10.66", "9.51" ]
+, [ "row-pxps-9vvc_nrbt", "00000000-0000-0000-AA1A-238FB5B26466", 0, 1520622150, null, 1520622150, null, "{ }", "2006-02-28T00:00:00", "2.95", "3.32", "2.81", "3.21", "2.86", "2.82", "2.63", "2.69", "3.3", "2.54", "2.66", "2.18", "2.18", "3.09", "3.41", "3.01", "2.69" ]
+, [ "row-ukh7-xcp7-itfc", "00000000-0000-0000-4E22-05340F797804", 0, 1520622150, null, 1520622150, null, "{ }", "2006-03-31T00:00:00", "1.04", "1.24", "1.11", "1.18", "1.39", "1.11", "1.22", "1.47", "1.67", "1.38", "1.2", "0.91", "0.91", "1.47", "1.57", "1.47", "1.29" ]
+, [ "row-tc99_kz79~rbva", "00000000-0000-0000-A6FA-001A4993D70D", 0, 1520622150, null, 1520622150, null, "{ }", "2006-04-30T00:00:00", "1.96", "2.02", "1.96", "2.14", "1.9", "1.89", "1.98", "2", "2.72", "1.73", "1.78", "1.8", "1.8", "2.23", "2.66", "2.25", "1.76" ]
+, [ "row-m8zc.nehp_mcqs", "00000000-0000-0000-35F6-CAE750EB35B3", 0, 1520622150, null, 1520622150, null, "{ }", "2006-05-31T00:00:00", "1.37", "2.3", "1.47", "1.38", "0.99", "1.09", "0.98", "1.01", "1.5", "0.92", "0.94", "0.84", "0.84", "1.33", "1.35", "1.25", "1.42" ]
+, [ "row-ifed-ypck-rsna", "00000000-0000-0000-F6F7-BC1220E13498", 0, 1520622150, null, 1520622150, null, "{ }", "2006-06-30T00:00:00", "1.07", "1.93", "1.7", "1.29", "1.56", "1.23", "1.26", "1.19", "1.59", "1.3", "1.11", "1.46", "1.46", "2.05", "2.01", "1.83", "1.55" ]
+, [ "row-euck-iby7-5qit", "00000000-0000-0000-8C7E-B858404F4118", 0, 1520622150, null, 1520622150, null, "{ }", "2006-07-31T00:00:00", "0.12", "0.02", "0.07", "0.04", "0.1", "0.12", "0.16", "0.08", "0.05", "0.08", "0.06", "0.05", "0.05", "0.03", "0.03", "0.1", "0.06" ]
+, [ "row-vnhy.vgag-8jki", "00000000-0000-0000-CF5D-1B9E715360BE", 0, 1520622150, null, 1520622150, null, "{ }", "2006-08-31T00:00:00", "0.15", "0.16", "0.07", "0.15", "0.04", "0.11", "0.05", "0.06", "0.05", "0.18", "0.21", "0.03", "0.03", "0.03", "0.03", "0.07", "0.24" ]
+, [ "row-radc_v74e-cmn3", "00000000-0000-0000-3D5E-C6F7F450C34C", 0, 1520622150, null, 1520622150, null, "{ }", "2006-09-30T00:00:00", "1.45", "1.78", "1.31", "1.38", "1.56", "1.06", "1.06", "0.94", "1.97", "1.2", "0.97", "0.88", "0.88", "1.54", "1.64", "1.67", "1.4" ]
+, [ "row-2sgt.n3c7~94qs", "00000000-0000-0000-601A-0A3E8EEE8B54", 0, 1520622150, null, 1520622150, null, "{ }", "2006-10-31T00:00:00", "1.87", "1.95", "1.31", "0.93", "0.65", "1.45", "1.51", "1.48", "1.56", "1.22", "1.31", "0.52", "0.52", "1.18", "1.15", "1.36", "1.46" ]
+, [ "row-c6w3~g8tw_2yxs", "00000000-0000-0000-7C07-EA772D9C9C28", 0, 1520622150, null, 1520622150, null, "{ }", "2006-11-30T00:00:00", "10.38", "11.79", "12.18", "12.26", "11.78", "10.83", "10.61", "10.63", "14.68", "11.02", "10.94", "9.4", "9.4", "12.98", "13.19", "13.4", "11.64" ]
+, [ "row-rsus-isk5~s65y", "00000000-0000-0000-1CCE-204D9866B4B6", 0, 1520622150, null, 1520622150, null, "{ }", "2006-12-31T00:00:00", "6.73", "7.04", "7.42", "7.29", "8.56", "6.91", "7.26", "6.94", "7.83", "7.26", "7.02", "6.73", "6.73", "7.3", "8.52", "7.37", "8.16" ]
+, [ "row-m5x5-ypf8.w9sf", "00000000-0000-0000-CE01-E369A9B28652", 0, 1520622150, null, 1520622150, null, "{ }", "2007-01-31T00:00:00", "2.63", "2.91", "2.94", "2.53", "3.93", "3.03", "3.59", "2.8", "4.28", "3.46", "3.23", "2.81", "2.8", "4.01", "5.06", "4.48", "3.3" ]
+, [ "row-x9bx-3htb_m97w", "00000000-0000-0000-C67B-8291E2258AD5", 0, 1520622150, null, 1520622150, null, "{ }", "2007-02-28T00:00:00", "1.6", "1.75", "1.92", "1.77", "1.26", "1.4", "1.63", "1.87", "3.16", "1.48", "1.57", "1.54", "1.54", "2.22", "2.12", "2.75", "1.91" ]
+, [ "row-snvr.kdef~2527", "00000000-0000-0000-7604-9DC43C6C0EE1", 0, 1520622150, null, 1520622150, null, "{ }", "2007-03-31T00:00:00", "2.87", "2.65", "2.86", "2.79", "2", "2.62", "2.8", "2.64", "4.66", "2.17", "2.99", "2.34", "2.09", "3.48", "3.49", "4.28", "3.11" ]
+, [ "row-av4v_qj6y-hmpe", "00000000-0000-0000-B3CA-A7A3DC784826", 0, 1520622150, null, 1520622150, null, "{ }", "2007-04-30T00:00:00", "0.16", "0.02", "0.59", "1.38", "0", "0.95", "0", "0", "0.55", "0", "0.77", "0.79", "0.05", "0", "0", "0.96", "1.62" ]
+, [ "row-3kbh_s3dp.d2h2", "00000000-0000-0000-AAE1-4E6B11A435EC", 0, 1520622150, null, 1520622150, null, "{ }", "2007-05-31T00:00:00", "0", "0", "0", "0.14", "0.01", "0.1", "0.01", "0", "0.13", "0", "0.1", "0.07", "0", "0.01", "0.01", "0.12", "0.09" ]
+, [ "row-r5jn.na7e_vn55", "00000000-0000-0000-705D-768A8DAB0CE0", 0, 1520622150, null, 1520622150, null, "{ }", "2007-06-30T00:00:00", "0.6", "0.51", "0", "0.15", "0.63", "0.5", "0.37", "0.47", "1.15", "0.39", "0.34", "0.46", "0.53", "0.63", "0.63", "0.64", "0.15" ]
+, [ "row-a5kg.m7dm-qqeu", "00000000-0000-0000-7A27-11A0DC802343", 0, 1520622150, null, 1520622150, null, "{ }", "2007-07-31T00:00:00", "1.5", "1.39", "0.75", "1.61", "1.42", "1.45", "1.23", "1.42", "1.43", "1.22", "1.29", "1.28", "1.34", "1.42", "1.42", "1.42", "1.38" ]
+, [ "row-qj4x_eefm-twic", "00000000-0000-0000-63FE-6930C8D1BD4F", 0, 1520622150, null, 1520622150, null, "{ }", "2007-08-31T00:00:00", "1.05", "1.06", "0.88", "1.11", "1.16", "1.04", "0.75", "0.88", "1.14", "0.66", "0.78", "0.97", "0.94", "1.16", "1.16", "1.23", "0.88" ]
+, [ "row-pwm9~567f~zc23", "00000000-0000-0000-9CBA-F70E071F1BD0", 0, 1520622150, null, 1520622150, null, "{ }", "2007-09-30T00:00:00", "2.14", "1.88", "2.08", "2.34", "2.31", "1.99", "1.88", "2.13", "2.66", "1.96", "1.97", "2.17", "2.27", "2.48", "2.48", "2.45", "2.19" ]
+, [ "row-6nye-5zuz_6kpa", "00000000-0000-0000-0FDE-306C54AAD153", 0, 1520622150, null, 1520622150, null, "{ }", "2007-10-31T00:00:00", "3.28", "2.65", "2.69", "2.95", "2.1", "3", "2.5", "2.79", "3.55", "2.25", "3.04", "2.71", "2.6", "2.7", "2.7", "2.69", "2.45" ]
+, [ "row-s39q~xrrn.s39g", "00000000-0000-0000-14E6-CFA296D85C59", 0, 1520622150, null, 1520622150, null, "{ }", "2007-11-30T00:00:00", "2.96", "2.72", "2.76", "2.98", "2.94", "2.87", "3.16", "2.95", "3.57", "2.81", "3.37", "3.45", "2.95", "3.54", "3.54", "3.46", "2.98" ]
+, [ "row-ujiy.jfxz-tgns", "00000000-0000-0000-64FB-FFDB383FC1D2", 0, 1520622150, null, 1520622150, null, "{ }", "2007-12-31T00:00:00", "10.53", "9.32", "9.83", "10.03", "9.59", "9.96", "9.31", "9.99", "9.37", "9.46", "10.49", "10.91", "9.32", "10.68", "10.68", "9.5", "9.47" ]
+, [ "row-dpve_hbtu~r2q5", "00000000-0000-0000-E71C-F230AB7592BF", 0, 1520622150, null, 1520622150, null, "{ }", "2008-01-31T00:00:00", "4.37", "3.95", "4.42", "4.23", "3.45", "4.14", "4.2", "4.61", "3.53", "3.88", "4.16", "3.82", "3.09", "3.09", "3.98", "3.53", "4.01" ]
+, [ "row-rvey~xeb8.bn3x", "00000000-0000-0000-48A8-1B889A41EA85", 0, 1520622150, null, 1520622150, null, "{ }", "2008-02-29T00:00:00", "1.46", "1.4", "1.39", "1.51", "0.94", "1.24", "1.2", "1.37", "1.39", "0.93", "1.01", "1.04", "1.11", "1.17", "1.37", "1.39", "1.43" ]
+, [ "row-xj3f~ta59.dady", "00000000-0000-0000-E658-52C2290173D0", 0, 1520622150, null, 1520622150, null, "{ }", "2008-03-31T00:00:00", "3.53", "3.57", "4.04", "3.62", "3.08", "3.77", "3.77", "3.88", "4.09", "3.64", "3.66", "3.66", "3.67", "4.27", "4.37", "4.09", "4.03" ]
+, [ "row-5tvj-tckt-36w9", "00000000-0000-0000-D1F6-EF0AD4CA91E0", 0, 1520622150, null, 1520622150, null, "{ }", "2008-04-30T00:00:00", "2.85", "2.16", "2.25", "2.76", "1.65", "2.53", "2.15", "2.25", "1.71", "1.87", "1.81", "1.82", "1.74", "1.59", "2.23", "1.71", "1.97" ]
+, [ "row-meav-644r-9yah", "00000000-0000-0000-0878-8FD788DAFD2A", 0, 1520622150, null, 1520622150, null, "{ }", "2008-05-31T00:00:00", "0.85", "0.8", "0.68", "0.76", "0.63", "0.71", "0.53", "0.64", "1.33", "0.6", "0.5", "0.7", "0.78", "1.13", "1.58", "1.33", "0.74" ]
+, [ "row-a57v.98ud.5hp9", "00000000-0000-0000-05B7-AED78182DFB9", 0, 1520622150, null, 1520622150, null, "{ }", "2008-06-30T00:00:00", "2.12", "1.81", "1.68", "2.21", "1.57", "2.1", "1.78", "1.95", "1.64", "1.85", "2.09", "1.43", "1.29", "1.87", "2.01", "1.64", "2.07" ]
+, [ "row-asea.i9qm.s6k8", "00000000-0000-0000-9117-E0186854E027", 0, 1520622150, null, 1520622150, null, "{ }", "2008-07-31T00:00:00", "0.28", "0.37", "0.37", "0.37", "0.2", "0.4", "0.46", "0.25", "0.51", "0.19", "0.39", "0.32", "0.19", "0.32", "0.43", "0.51", "0.32" ]
+, [ "row-3hdu_vvzb~wu5a", "00000000-0000-0000-E22F-EC7AEC9AF336", 0, 1520622150, null, 1520622150, null, "{ }", "2008-08-31T00:00:00", "3.16", "3.04", "3.14", "3.4", "2.65", "3.17", "2.86", "3.15", "3.49", "2.73", "3.18", "2.97", "2.74", "3.01", "3.43", "3.49", "3.5" ]
+, [ "row-aqqf~yaha~2e5n", "00000000-0000-0000-6CB2-9EDBE300113D", 0, 1520622150, null, 1520622150, null, "{ }", "2008-09-30T00:00:00", "0.88", "0.78", "0.73", "0.76", "0.51", "0.81", "0.61", "0.75", "0.74", "0.57", "0.64", "0.5", "0.5", "0.6", "0.59", "0.74", "0.74" ]
+, [ "row-5d2x.37ke.76db", "00000000-0000-0000-D6B5-96E1C7DA70DE", 0, 1520622150, null, 1520622150, null, "{ }", "2008-10-31T00:00:00", "2.15", "2.43", "2.27", "2.3", "2.08", "1.99", "1.82", "2.18", "2.18", "1.87", "2.01", "2.27", "2.01", "1.98", "2.33", "2.18", "2.43" ]
+, [ "row-hd6s_4c2p-sbrm", "00000000-0000-0000-0B21-EB0EBD91039C", 0, 1520622150, null, 1520622150, null, "{ }", "2008-11-30T00:00:00", "4.81", "4.65", "4.65", "5.02", "5.18", "4.81", "5.08", "5.74", "6.08", "4.73", "5.3", "5.45", "4.98", "5.94", "6.17", "6.08", "5.15" ]
+, [ "row-3em7-wxmf-ah8u", "00000000-0000-0000-4F87-02E72AA32085", 0, 1520622150, null, 1520622150, null, "{ }", "2008-12-31T00:00:00", "4.76", "4.11", "4", "4.77", "3.96", "3.85", "3.68", "4.03", "3.94", "3.14", "3.63", "3.46", "3.04", "4.06", "4.31", "3.94", "3.89" ]
+, [ "row-waxq_hv9a~whe4", "00000000-0000-0000-D387-F6032F5F3C9F", 0, 1520622150, null, 1520622150, null, "{ }", "2009-01-31T00:00:00", "3.43", "3.33", "3.72", "3.76", "4.53", "3.3", "3.73", "3.77", "3.92", "3.53", "3.83", "4.37", "3.24", "4.27", "5.15", "4.44", "3.66" ]
+, [ "row-i979.gpx3_akbd", "00000000-0000-0000-45A3-8F6416DA130E", 0, 1520622150, null, 1520622150, null, "{ }", "2009-02-28T00:00:00", "2.04", "2.07", "1.82", "2.11", "1.4", "1.8", "1.86", "2.1", "1.75", "1.61", "1.78", "1.59", "1.42", "1.88", "1.63", "1.86", "1.69" ]
+, [ "row-9twe_yqn9.9yki", "00000000-0000-0000-674F-3F80E39BE071", 0, 1520622150, null, 1520622150, null, "{ }", "2009-03-31T00:00:00", "4.26", "3.8", "3.75", "4.45", "3.14", "4.19", "3.51", "4.04", "4.25", "3.11", "3.44", "3.32", "2.7", "3.83", "3.56", "3.53", "3.23" ]
+, [ "row-at3y.d8sn~u6hb", "00000000-0000-0000-0221-3464052521B0", 0, 1520622150, null, 1520622150, null, "{ }", "2009-04-30T00:00:00", "2.75", "2.86", "2.97", "3.08", "2.96", "2.73", "2.79", "3.34", "3.67", "2.43", "2.67", "2.97", "2.41", "2.86", "2.99", "3.18", "2.87" ]
+, [ "row-iaji_ic4k~aewa", "00000000-0000-0000-D5BA-D23231624BB3", 0, 1520622150, null, 1520622150, null, "{ }", "2009-05-31T00:00:00", "3.9", "3.76", "4.29", "3.7", "3.82", "4.12", "4.18", "4.27", "4.6", "4.05", "4.81", "4.41", "3.86", "4.36", "4.32", "4.4", "4.03" ]
+, [ "row-hzm7-q5zp_ea7z", "00000000-0000-0000-4773-B9D88F014CB7", 0, 1520622150, null, 1520622150, null, "{ }", "2009-06-30T00:00:00", "0.31", "0.2", "0.11", "0.24", "0.24", "0.27", "0.17", "0.16", "0.56", "0.1", "0.14", "0.16", "0.21", "0.22", "0.36", "0.23", "0.21" ]
+, [ "row-hft7_qukk_zunm", "00000000-0000-0000-A229-01EDB10CC37B", 0, 1520622150, null, 1520622150, null, "{ }", "2009-07-31T00:00:00", "0.22", "0.2", "0.1", "0.15", "0.11", "0.12", "0.09", "0.11", "0.06", "0.09", "0.2", "0.08", "0.1", "0.05", "0.1", "0.06", "0.08" ]
+, [ "row-shrk_xuku~n6wf", "00000000-0000-0000-5882-5F53F7B280A1", 0, 1520622150, null, 1520622150, null, "{ }", "2009-08-31T00:00:00", "0.75", "0.77", "0.76", "0.83", "0.96", "0.77", "0.82", "0.89", "1.08", "0.78", "0.95", "1.09", "0.88", "0.99", "1.07", "1.08", "0.86" ]
+, [ "row-9ddy.bu9i~4cjq", "00000000-0000-0000-3A46-C76B2B33A849", 0, 1520622150, null, 1520622150, null, "{ }", "2009-09-30T00:00:00", "2.5", "2.46", "2.05", "2.44", "1.87", "2.4", "2.31", "2.3", "2.49", "2.47", "2.2", "2.12", "2.05", "2.29", "2.25", "2.42", "2.54" ]
+, [ "row-m8xq-3x6n_kgc2", "00000000-0000-0000-DE17-AE8F64AA970D", 0, 1520622150, null, 1520622150, null, "{ }", "2009-10-31T00:00:00", "5.71", "5.3", "4.98", "6.06", "4.92", "5.25", "5.29", "5.88", "6.06", "5.01", "5.4", "4.99", "5.13", "5.88", "5.81", "6.21", "5.06" ]
+, [ "row-yhn6_jyut_a2en", "00000000-0000-0000-21E4-E0460501EA8B", 0, 1520622150, null, 1520622150, null, "{ }", "2009-11-30T00:00:00", "10.92", "8.41", "8.72", "9.56", "9.13", "10.84", "9.51", "9.94", "10.07", "7.93", "9.17", "9.86", "9.34", "10.1", "9.74", "10.92", "8.75" ]
+, [ "row-n85u~7vsd.isxt", "00000000-0000-0000-6621-711FB1F668D8", 0, 1520622150, null, 1520622150, null, "{ }", "2009-12-31T00:00:00", "3.11", "2.19", "2.23", "2.59", "2.77", "2.95", "2.62", "2.6", "2.8", "2.27", "2.5", "2.77", "2.34", "2.83", "2.99", "3.07", "2.34" ]
+, [ "row-rhdy.4h3i.pk2s", "00000000-0000-0000-D193-C1E902062DCE", 0, 1520622150, null, 1520622150, null, "{ }", "2010-01-31T00:00:00", "7.82", "6.41", "6.69", "7.21", "7.12", "7.37", "7.19", "7.62", "6.81", "6.58", "7.4", "8.13", "6.7", "6.82", "6.97", "7.53", "6.61" ]
+, [ "row-5e2e.4gc9.pgm5", "00000000-0000-0000-F2C2-0D841350CA53", 0, 1520622150, null, 1520622150, null, "{ }", "2010-02-28T00:00:00", "4.05", "2.83", "3.2", "3.17", "3.64", "3.9", "3.74", "3.9", "3.6", "3.54", "3.91", "4.36", "3.62", "3.66", "3.52", "3.7", "3.56" ]
+, [ "row-9ze4-d6md.ydxg", "00000000-0000-0000-42E6-136391D2BA9B", 0, 1520622150, null, 1520622150, null, "{ }", "2010-03-31T00:00:00", "3.65", "3.1", "2.92", "3.07", "3.03", "3.34", "3.3", "3.34", "4.43", "2.78", "3.39", "3.25", "3.02", "3.57", "3.26", "4.49", "2.99" ]
+, [ "row-fi3n~bjbc.sem9", "00000000-0000-0000-5E99-E7717316B631", 0, 1520622150, null, 1520622150, null, "{ }", "2010-04-30T00:00:00", "3.35", "2.75", "2.96", "3.02", "3.65", "3.25", "3.07", "3.53", "4.05", "3.16", "2.84", "3.39", "3.31", "3.78", "3.75", "3.86", "2.96" ]
+, [ "row-ik92~u4e6-zsqk", "00000000-0000-0000-EB1E-5F2C8617F30B", 0, 1520622150, null, 1520622150, null, "{ }", "2010-05-31T00:00:00", "3.19", "3.53", "3.03", "3.66", "2.97", "3.32", "3.47", "3.6", "3.46", "3.05", "3.93", "4.24", "2.74", "3.1", "3.16", "3.62", "2.73" ]
+, [ "row-drkv.47a6-2wz9", "00000000-0000-0000-9D9B-9430018DA30C", 0, 1520622150, null, 1520622150, null, "{ }", "2010-06-30T00:00:00", "2.34", "2.26", "2.56", "2.42", "2.09", "2.5", "2.19", "2.71", "2.66", "1.87", "1.96", "1.88", "1.9", "2.18", "2.24", "2.43", "2.02" ]
+, [ "row-v4jr_zr9f.jyme", "00000000-0000-0000-D2FE-31E815C8B8C0", 0, 1520622150, null, 1520622150, null, "{ }", "2010-07-31T00:00:00", "0.17", "0.12", "0.18", "0.14", "0.18", "0.12", "0.18", "0.22", "0.34", "0.22", "0.21", "0.43", "0.25", "0.21", "0.34", "0.46", "0.34" ]
+, [ "row-yqyz_37d3.dzxt", "00000000-0000-0000-1E0F-F820C91C37D4", 0, 1520622150, null, 1520622150, null, "{ }", "2010-08-31T00:00:00", "0.82", "0.73", "0.82", "0.73", "0.64", "0.76", "0.77", "0.96", "0.59", "0.67", "0.69", "0.59", "0.55", "0.6", "0.64", "0.65", "0.72" ]
+, [ "row-ey9k~xi42.4kfh", "00000000-0000-0000-2E0F-D2D627CEB400", 0, 1520622150, null, 1520622150, null, "{ }", "2010-09-30T00:00:00", "3.49", "3.66", "3.71", "4.02", "4.18", "3.44", "3.43", "4.12", "3.94", "3.98", "4.22", "4.39", "3.78", "4.1", "4.1", "4.04", "3.89" ]
+, [ "row-ei6k_zehd~7u68", "00000000-0000-0000-2CBC-0A1A32B9E6C4", 0, 1520622150, null, 1520622150, null, "{ }", "2010-10-31T00:00:00", "3.57", "3.7", "3.92", "3.76", "4.71", "3.52", "3.88", "4.29", "5.71", "3.95", "4.22", "4.72", "4.74", "4.94", "4.73", "4.86", "4.35" ]
+, [ "row-wwp5-c5dg_era8", "00000000-0000-0000-1024-12FADF45D1BB", 0, 1520622150, null, 1520622150, null, "{ }", "2010-11-30T00:00:00", "4.64", "4.45", "4.46", "4.97", "4.63", "4.69", "4.65", "5", "5.17", "4.46", "4.79", "5.15", "4.55", "5.21", "4.88", "5.06", "4.45" ]
+, [ "row-hyjz.9i8j-bi3q", "00000000-0000-0000-848F-D09D428EB6A0", 0, 1520622150, null, 1520622150, null, "{ }", "2010-12-31T00:00:00", "8.36", "7.55", "8.39", "8.02", "8.78", "8.93", "8.75", "9.46", "9.71", "8.36", "8.87", "9.71", "8.89", "10.25", "9.18", "9.27", "8.16" ]
+, [ "row-whj7~g7jc~f94y", "00000000-0000-0000-38FA-A8599B68D36C", 0, 1520622150, null, 1520622150, null, "{ }", "2011-01-31T00:00:00", "4.72", "5.08", "5", "4.9", "4.5", "4.3", "4.84", "5.46", "6.13", "4.77", "4.81", "5.38", "4.73", "5.38", "4.65", "5.82", "4.97" ]
+, [ "row-c3aw~b7zi.xjjn", "00000000-0000-0000-0C73-9E525CAA1CA0", 0, 1520622150, null, 1520622150, null, "{ }", "2011-02-28T00:00:00", "3.83", "3.11", "3.44", "3.33", "2.95", "3.88", "3.59", "3.89", "3.59", "3.18", "3.4", "3.41", "2.94", "3.45", "2.99", "3.58", "3.32" ]
+, [ "row-9zmc~t4dg_4qfg", "00000000-0000-0000-D994-58606B53249A", 0, 1520622150, null, 1520622150, null, "{ }", "2011-03-31T00:00:00", "7.66", "5.78", "6.19", "6.63", "6.26", "8.08", "7.3", "7.58", "7.31", "5.97", "7.23", "6.9", "5.84", "6.78", "6.33", "6.72", "6.06" ]
+, [ "row-pery_dkbv~zvkk", "00000000-0000-0000-6203-2EFBE1872C23", 0, 1520622150, null, 1520622150, null, "{ }", "2011-04-30T00:00:00", "3.74", "3.1", "3.22", "3.24", "3.41", "3.32", "3.14", "3.42", "4.63", "3.06", "2.95", "3.95", "3.79", "4.27", "4", "4.09", "3.77" ]
+, [ "row-eg5x.mucz-3tb2", "00000000-0000-0000-BB49-069F4EDD1379", 0, 1520622150, null, 1520622150, null, "{ }", "2011-05-31T00:00:00", "3.02", "2.78", "2.87", "3.01", "3.16", "3.2", "3.08", "3.3", "3.14", "3.31", "3.14", "3.35", "3.23", "3.1", "3.06", "2.93", "2.95" ]
+, [ "row-gmg4~zs8g-2yea", "00000000-0000-0000-295E-5CD5AC266514", 0, 1520622150, null, 1520622150, null, "{ }", "2011-06-30T00:00:00", "1.4", "1.48", "1.5", "1.24", "0.79", "1.23", "1.19", "1.33", "1.55", "1.28", "1.15", "1.63", "1.28", "1.32", "1.31", "1.38", "1.65" ]
+, [ "row-9m4c.saci-rztb", "00000000-0000-0000-96F3-365C4948B1B0", 0, 1520622150, null, 1520622150, null, "{ }", "2011-07-31T00:00:00", "0.75", "0.55", "0.54", "0.65", "0.82", "1.06", "0.86", "0.74", "0.8", "0.85", "0.9", "0.8", "0.72", "0.86", "0.86", "0.82", "0.74" ]
+, [ "row-cbau-pu5t-vkvc", "00000000-0000-0000-EC68-7C94F70545FB", 0, 1520622150, null, 1520622150, null, "{ }", "2011-08-31T00:00:00", "0.07", "0.09", "0.06", "0.09", "0.06", "0.05", "0.06", "0.11", "0.09", "0.02", "0.05", "0.03", "0.04", "0.07", "0.07", "0.08", "0.06" ]
+, [ "row-jswp_ptqp_44i8", "00000000-0000-0000-8223-7BB11681B327", 0, 1520622150, null, 1520622150, null, "{ }", "2011-09-30T00:00:00", "1", "0.85", "0.94", "1.02", "1.34", "1.04", "1.03", "1.13", "1.21", "0.99", "1.11", "1.3", "1.2", "1.17", "1.43", "1.15", "1.15" ]
+, [ "row-a6z6~ptzu_h793", "00000000-0000-0000-F685-7127D93C8288", 0, 1520622150, null, 1520622150, null, "{ }", "2011-10-31T00:00:00", "3.13", "2.94", "3.05", "3.27", "2.54", "3.23", "2.93", "3.61", "3.29", "2.6", "2.78", "2.66", "2.23", "2.49", "2.94", "3.24", "2.96" ]
+, [ "row-f27t.xuza~rbif", "00000000-0000-0000-1A2A-AC09C08FA1DC", 0, 1520622150, null, 1520622150, null, "{ }", "2011-11-30T00:00:00", "6.13", "5.66", "6.12", "6.68", "5.14", "6.37", "5.61", "6.88", "6.24", "5.27", "5.87", "6.18", "5.33", "5.86", "5.82", "5.83", "5.45" ]
+, [ "row-k452.5xnm_rsrv", "00000000-0000-0000-526C-1CE72C329B2E", 0, 1520622150, null, 1520622150, null, "{ }", "2011-12-31T00:00:00", "1.67", "1.52", "1.54", "1.69", "2.07", "1.68", "1.55", "1.83", "2.1", "1.62", "1.75", "2.05", "1.72", "1.92", "2.19", "1.98", "1.69" ]
+, [ "row-2kzf_sz4c_ph6p", "00000000-0000-0000-C225-A6C2720AA506", 0, 1520622150, null, 1520622150, null, "{ }", "2012-01-31T00:00:00", "4.97", "4.69", "5.3", "5.26", "5.72", "4.92", "4.9", "5.6", "6.66", "4.59", "4.89", "5.79", "4.9", "5.89", "6.05", "5.95", "5.21" ]
+, [ "row-dq97_zj3x~ddy5", "00000000-0000-0000-EEA2-969842251046", 0, 1520622150, null, 1520622150, null, "{ }", "2012-02-29T00:00:00", "3.62", "2.78", "2.85", "3", "2.87", "2.97", "2.65", "3.23", "3.69", "2.4", "2.62", "2.67", "2.72", "3.53", "3.51", "3.34", "2.55" ]
+, [ "row-9ffj.dhzi.gt47", "00000000-0000-0000-3639-119EB1619B18", 0, 1520622150, null, 1520622150, null, "{ }", "2012-03-31T00:00:00", "6.65", "5.28", "6.5", "5.93", "6.08", "6.35", "5.43", "6.72", "8.22", "6.19", "6.09", "6.75", "6.37", "7.75", "7.36", "7.49", "6.36" ]
+, [ "row-2yfa~c8qd~xwf2", "00000000-0000-0000-8F50-9F5D82A3FA0F", 0, 1520622150, null, 1520622150, null, "{ }", "2012-04-30T00:00:00", "2.33", "2.16", "2.24", "2.2", "2.42", "2.19", "1.77", "2.42", "2.8", "2.09", "2.02", "2.37", "2.35", "2.32", "2.67", "2.52", "2.39" ]
+, [ "row-n6xx_igjd~hf2r", "00000000-0000-0000-6998-3798EB615FA3", 0, 1520622150, null, 1520622150, null, "{ }", "2012-05-31T00:00:00", "1.87", "2.68", "2.34", "2.1", "2.11", "1.84", "1.79", "2.17", "2.65", "2.51", "2.13", "2.86", "2.34", "2.56", "2.37", "2.55", "2.33" ]
+, [ "row-3u9x-q4k4.9pfn", "00000000-0000-0000-2C9D-F3797A63A030", 0, 1520622150, null, 1520622150, null, "{ }", "2012-06-30T00:00:00", "3.5", "3.22", "3.29", "3.42", "2.21", "3.15", "2.82", "3.66", "3.11", "2.58", "3.05", "2.85", "2.83", "2.82", "2.95", "3.16", "3.28" ]
+, [ "row-fcff-uq6e.wutb", "00000000-0000-0000-F8DA-A60A860B24AA", 0, 1520622150, null, 1520622150, null, "{ }", "2012-07-31T00:00:00", "1.73", "1.56", "1.27", "1.76", "1.08", "2.65", "1.76", "1.71", "1.37", "1.22", "1.97", "1.1", "1.04", "1.05", "1.98", "1.34", "1.42" ]
+, [ "row-5isi_kass-geaf", "00000000-0000-0000-4DCF-9A0872001C5E", 0, 1520622150, null, 1520622150, null, "{ }", "2012-08-31T00:00:00", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ]
+, [ "row-mkha_3ymm-axv8", "00000000-0000-0000-C74A-FC1EA8AF2604", 0, 1520622150, null, 1520622150, null, "{ }", "2012-09-30T00:00:00", "0.38", "0.25", "0.2", "0.27", "0.03", "0.38", "0.28", "0.26", "0.08", "0.06", "0.16", "0.07", "0.05", "0.03", "0.05", "0.06", "0.11" ]
+, [ "row-izwf_grne~a3cx", "00000000-0000-0000-C234-24BACE251F84", 0, 1520622150, null, 1520622150, null, "{ }", "2012-10-31T00:00:00", "5.82", "5.3", "5.85", "5.85", "6.32", "6.18", "5.78", "6.89", "6.54", "5.5", "5.99", "6.37", "5.94", "6.34", "6.73", "6.53", "5.53" ]
+, [ "row-iuja~nzjc~ar8r", "00000000-0000-0000-20ED-F26220FBF1A9", 0, 1520622150, null, 1520622150, null, "{ }", "2012-11-30T00:00:00", "8.79", "7.76", "8.58", "7.96", "7.71", "9.18", "8.67", "9.32", "8.14", "8.02", "8.89", "8.88", "7.74", "7.98", "7.95", "8.19", "7.93" ]
+, [ "row-fiqp~6vix-6cne", "00000000-0000-0000-61CD-2ED22D06E135", 0, 1520622150, null, 1520622150, null, "{ }", "2012-12-31T00:00:00", "9.88", "7.51", "8.94", "8.53", "7.9", "9.99", "9.04", "10.01", "9.3", "8.36", "9.04", "9.22", "8.35", "9.48", "9.05", "9.07", "8.37" ]
+, [ "row-mdm9-swy3-p8qp", "00000000-0000-0000-DE4D-FF1F0D4D01E3", 0, 1520622150, null, 1520622150, null, "{ }", "2013-01-31T00:00:00", "4.8", "4.74", "4.21", "4.54", "2.83", "4.33", "3.77", "4.5", "3.93", "3.32", "3.64", "4.03", "3.32", "3.6", "3.33", "3.92", "4.03" ]
+, [ "row-r895-ejw6~rjxw", "00000000-0000-0000-CB00-C35AE69805CF", 0, 1520622150, null, 1520622150, null, "{ }", "2013-02-28T00:00:00", "1.89", "1.56", "1.67", "1.67", "1.49", "1.82", "1.49", "1.77", "1.78", "1.33", "1.45", "1.68", "1.6", "1.73", "1.55", "1.78", "1.47" ]
+, [ "row-7tqm-j53q.j8k6", "00000000-0000-0000-706B-DFC0D1926A63", 0, 1520622150, null, 1520622150, null, "{ }", "2013-03-31T00:00:00", "2.82", "2.7", "2.77", "2.79", "2.46", "2.8", "2.53", "2.76", "2.75", "2.52", "2.6", "3", "2.79", "2.96", "2.89", "2.69", "2.53" ]
+, [ "row-gfxz~r2uk.tidb", "00000000-0000-0000-8CCE-1B375E622E54", 0, 1520622150, null, 1520622150, null, "{ }", "2013-04-30T00:00:00", "5.28", "4.3", "4.85", "4.86", "3.72", "4.98", "4.68", "5.08", "5.14", "4.18", "4.95", "4.2", "3.96", "4.33", "4.31", "4.67", "4.38" ]
+, [ "row-d9tz_pag8~q3ak", "00000000-0000-0000-B641-FC6A69123695", 0, 1520622150, null, 1520622150, null, "{ }", "2013-05-31T00:00:00", "1.41", "1.15", "1.3", "1.54", "1.68", "1.57", "1.93", "1.85", "1.95", "1.47", "1.93", "1.84", "1.5", "1.57", "1.72", "1.79", "1.54" ]
+, [ "row-yhse~g3ij-x72v", "00000000-0000-0000-763A-7CDF6D694311", 0, 1520622150, null, 1520622150, null, "{ }", "2013-06-30T00:00:00", "1.8", "1.91", "1.56", "2.23", "1.2", "2.1", "1.55", "1.92", "1.74", "1.44", "1.55", "1.67", "1.45", "1.2", "1.34", "1.46", "1.71" ]
+, [ "row-3epv_4gdd-8zbe", "00000000-0000-0000-6920-573494D04762", 0, 1520622150, null, 1520622150, null, "{ }", "2013-07-31T00:00:00", "0.05", "0.03", "0.09", "0.11", "0", "0", "0", "0.03", "0.09", "0", "0", "0", "0", "0.02", "0.01", "0.14", "0.15" ]
+, [ "row-zuxf-pift_pabh", "00000000-0000-0000-0227-131C2BEF40FB", 0, 1520622150, null, 1520622150, null, "{ }", "2013-08-31T00:00:00", "0.96", "0.94", "1.02", "0.99", "0.92", "1.08", "1.15", "1", "1.24", "1.2", "1.15", "0.82", "0.98", "1.05", "1.26", "1.15", "1.08" ]
+, [ "row-mbit_a5di~vid4", "00000000-0000-0000-FCB1-A2218FA38D8E", 0, 1520622150, null, 1520622150, null, "{ }", "2013-09-30T00:00:00", "5.06", "5.08", "4.8", "4.91", "5.33", "4.88", "5.63", "5.14", "5.91", "4.73", "5.63", "5.37", "5.67", "5.25", "4.97", "5.61", "5.5" ]
+, [ "row-jtu2-vei5.2vva", "00000000-0000-0000-7BD1-E415F818776B", 0, 1520622150, null, 1520622150, null, "{ }", "2013-10-31T00:00:00", "0.98", "1.19", "0.9", "0.98", "1.52", "0.98", "1.14", "1.14", "1.76", "0.76", "1.31", "1.52", "1.1", "1.44", "1.81", "1.72", "1" ]
+, [ "row-7evy~mmj5_j79i", "00000000-0000-0000-DCFF-DF1587B87A11", 0, 1520622150, null, 1520622150, null, "{ }", "2013-11-30T00:00:00", "2.8", "3.03", "2.58", "3.04", "2.83", "2.79", "2.55", "2.79", "3.54", "2.31", "2.75", "2.85", "2.85", "2.99", "3.1", "3.25", "2.9" ]
+, [ "row-3qjs.zk4j.k5mt", "00000000-0000-0000-7631-027A2AA9275D", 0, 1520622150, null, 1520622150, null, "{ }", "2013-12-31T00:00:00", "1.37", "1.51", "1.25", "1.52", "1.01", "1.11", "0.95", "1.24", "1.57", "0.95", "1.01", "1.35", "1.11", "1.21", "1.4", "1.37", "1.47" ]
+, [ "row-h8tq.jcn5.27yr", "00000000-0000-0000-4A9D-6E43AD94C6AE", 0, 1520622150, null, 1520622150, null, "{ }", "2014-01-31T00:00:00", "4.24", "4.07", "4.05", "4.07", "3.4", "4.39", "3.89", "4.54", "3.93", "3.99", "4.6", "4.5", "3.4", "3.68", "3.72", "4.06", "4.34" ]
+, [ "row-b6qe~d3eb-b8tp", "00000000-0000-0000-4AF8-3B815068288D", 0, 1520622150, null, 1520622150, null, "{ }", "2014-02-28T00:00:00", "5.59", "5.45", "5.42", "5.12", "5.55", "5.62", "4.88", "5.55", "6.27", "5.33", "5.85", "6.03", "5.55", "6.28", "5.84", "6.21", "5.87" ]
+, [ "row-vxwn.su5f_skns", "00000000-0000-0000-A808-8CA1C1E9F944", 0, 1520622150, null, 1520622150, null, "{ }", "2014-03-31T00:00:00", "9.06", "8.76", "8.54", "8.69", "7.93", "8.8", "8.3", "9.73", "9.24", "8.04", "8.87", "8.81", "7.93", "8.17", "8.26", "8.84", "8.51" ]
+, [ "row-s859~t6gg.h82x", "00000000-0000-0000-07D4-9656ACD86BB8", 0, 1520622150, null, 1520622150, null, "{ }", "2014-04-30T00:00:00", "3.23", "3.07", "3.07", "3.37", "2.65", "3.22", "2.6", "3.37", "4.47", "2.7", "2.78", "2.84", "2.84", "3.43", "2.84", "3.53", "3.11" ]
+, [ "row-s5j5~8b6e~7exv", "00000000-0000-0000-E810-102EDD5A0B79", 0, 1520622150, null, 1520622150, null, "{ }", "2014-05-31T00:00:00", "2.26", "2.28", "2.2", "2.45", "2.4", "2.25", "2.24", "2.6", "3.14", "2.38", "2.71", "2.76", "2.76", "2.88", "2.94", "2.9", "2.62" ]
+, [ "row-uzvf_f4az-yi3k", "00000000-0000-0000-FB70-256A982D3029", 0, 1520622150, null, 1520622150, null, "{ }", "2014-06-30T00:00:00", "1.22", "1.34", "0.9", "1.16", "0.54", "1.11", "0.98", "1.12", "0.79", "0.75", "0.95", "0.56", "0.56", "0.56", "0.65", "0.69", "1.08" ]
+, [ "row-fnt3.h8pe~u5cy", "00000000-0000-0000-888C-1EF90228C396", 0, 1520622150, null, 1520622150, null, "{ }", "2014-07-31T00:00:00", "1.28", "1.54", "0.98", "1.33", "0.57", "1.02", "0.81", "0.99", "1.09", "0.75", "0.96", "0.69", "0.69", "0.72", "0.76", "0.99", "0.67" ]
+, [ "row-tzpe_66ib.vvns", "00000000-0000-0000-C548-B46C1D4AC9DB", 0, 1520622150, null, 1520622150, null, "{ }", "2014-08-31T00:00:00", "1.62", "1.67", "1.29", "1.64", "1.21", "1.46", "1.13", "1.29", "1.48", "1.23", "1.25", "1.15", "1.15", "1.17", "1.35", "1.53", "1.35" ]
+, [ "row-2a2v.gwc8~j9at", "00000000-0000-0000-0C4D-F95AC56DB1E6", 0, 1520622150, null, 1520622150, null, "{ }", "2014-09-30T00:00:00", "2.73", "3.76", "2.69", "2.64", "1.96", "2.67", "2.35", "2.69", "2.61", "3.35", "2.52", "2.83", "2.83", "2.27", "2.39", "2.68", "3.41" ]
+, [ "row-nkvn-294f.648d", "00000000-0000-0000-FB90-23DCC9976BCC", 0, 1520622150, null, 1520622150, null, "{ }", "2014-10-31T00:00:00", "6.76", "8.39", "6.02", "6.89", "6.58", "6.54", "5.93", "6.46", "7.21", "6.41", "7.07", "6.87", "6.58", "5.83", "5.85", "7.25", "6.71" ]
+, [ "row-gngr-ktap.nzwm", "00000000-0000-0000-A0EE-2ED76559A911", 0, 1520622150, null, 1520622150, null, "{ }", "2014-11-30T00:00:00", "5.08", "6.14", "4.7", "4.56", "4.46", "4.86", "4.38", "4.95", "4.44", "4.63", "4.8", "5.25", "4.41", "3.72", "3.43", "4.41", "5.13" ]
+, [ "row-me83~vr5h_ee7k", "00000000-0000-0000-5AF1-11AA14518692", 0, 1520622150, null, 1520622150, null, "{ }", "2014-12-31T00:00:00", "6.09", "5.37", "5.29", "5.5", "5.42", "6.26", "5.39", "6.08", "5.24", "5.41", "5.93", "5.86", "5.43", "4.6", "4.38", "5.29", "5.92" ]
+, [ "row-2fny-b8wt~7fx3", "00000000-0000-0000-ABB5-BD2DAF6941D9", 0, 1520622150, null, 1520622150, null, "{ }", "2015-01-31T00:00:00", "2.54", "2.65", "2.72", "2.38", "2.47", "2.61", "2.27", "2.66", "3.2", "2.73", "2.7", "3.04", "2.35", "2.36", "1.92", "2.67", "3.01" ]
+, [ "row-vpvq-xpen-zmkx", "00000000-0000-0000-118E-1BB25134237B", 0, 1520622150, null, 1520622150, null, "{ }", "2015-02-28T00:00:00", "4.6", "4.21", "4.1", "4.18", "4.37", "4.52", "3.91", "4.46", "5.1", "4.18", "4.32", "4.61", "4.5", "4.68", "4.68", "5.1", "5.1" ]
+, [ "row-4env~isem_2evw", "00000000-0000-0000-6173-11F0714CFA84", 0, 1520622150, null, 1520622150, null, "{ }", "2015-03-31T00:00:00", "4.25", "4.12", "4.3", "4.23", "4.56", "4.99", "3.8", "4.33", "4.55", "4.39", "4.42", "4.83", "4.57", "4.38", "4.39", "4.52", "4.79" ]
+, [ "row-q7et_hvsr~3bw7", "00000000-0000-0000-CDF8-C7D19D4AC721", 0, 1520622150, null, 1520622150, null, "{ }", "2015-04-30T00:00:00", "1.59", "1.64", "1.89", "1.66", "1.65", "1.71", "1.26", "1.62", "2.11", "1.64", "1.58", "1.62", "1.84", "1.91", "1.7", "2.3", "2.42" ]
+, [ "row-2a7q~5ktr.tbmb", "00000000-0000-0000-B9EE-0E8EA0C91B78", 0, 1520622150, null, 1520622150, null, "{ }", "2015-05-31T00:00:00", "0.5", "0.87", "0.65", "0.73", "0.51", "0.54", "0.77", "0.79", "0.57", "0.52", "0.66", "0.48", "0.49", "0.31", "0.4", "0.49", "0.57" ]
+, [ "row-4r6u_x3yg-x7es", "00000000-0000-0000-9D10-D79A9D110F37", 0, 1520622150, null, 1520622150, null, "{ }", "2015-06-30T00:00:00", "0.28", "0.2", "0.12", "0.13", "0.15", "0.33", "0.15", "0.21", "0.17", "0.1", "0.13", "0.14", "0.09", "0.12", "0.12", "0.23", "0.17" ]
+, [ "row-3fq8-xcwn_vfnf", "00000000-0000-0000-38BC-4698044407F4", 0, 1520622150, null, 1520622150, null, "{ }", "2015-07-31T00:00:00", "0.35", "0.94", "0.25", "0.31", "0.13", "0.24", "0.18", "0.27", "0.14", "0.15", "0.17", "0.19", "0.18", "0.16", "0.07", "0.29", "0.22" ]
+, [ "row-dxvq-edk3_ny8v", "00000000-0000-0000-0346-41F7A3084193", 0, 1520622150, null, 1520622150, null, "{ }", "2015-08-31T00:00:00", "3.02", "2.63", "3.42", "2.61", "3.7", "2.58", "2.57", "2.96", "2.97", "2.83", "2.96", "3.03", "2.67", "2.67", "2.58", "2.97", "2.76" ]
+, [ "row-6v4y~4myr~7qti", "00000000-0000-0000-3368-A0B7378AACCE", 0, 1520622150, null, 1520622150, null, "{ }", "2015-09-30T00:00:00", "1.35", "1.04", "2.2", "1.42", "0.79", "1.13", "1.77", "2.03", "1.3", "1.83", "1.73", "1.63", "1.67", "1.01", "0.87", "1.3", "1.78" ]
+, [ "row-59fh-ed2b.zgq2", "00000000-0000-0000-7EA8-AB1378AEFFCE", 0, 1520622150, null, 1520622150, null, "{ }", "2015-10-31T00:00:00", "3.51", "3.53", "3.38", "3.45", "3.38", "3.34", "2.93", "3.63", "3.7", "3.25", "3.3", "3.76", "3.29", "3.7", "3.48", "4.02", "3.88" ]
+, [ "row-t9sm.29nn.4cpt", "00000000-0000-0000-640E-EBB30EBAC688", 0, 1520622150, null, 1520622150, null, "{ }", "2015-11-30T00:00:00", "6.92", "6.66", "6.48", "6.76", "6.76", "6.54", "6.44", "7.37", "7.74", "6.36", "7.08", "7.35", "6.63", "7.74", "6.65", "8.04", "6.95" ]
+, [ "row-6yph.eg5c~3275", "00000000-0000-0000-FC2D-04E76019B0FF", 0, 1520622150, null, 1520622150, null, "{ }", "2015-12-31T00:00:00", "10.49", "8.94", "10.14", "10.05", "10.11", "10.58", "9.93", "11.21", "10.88", "9.94", "11.4", "11.83", "10.09", "10.88", "9.81", "10.45", "10.66" ]
+, [ "row-vqwn~afc5~g9h3", "00000000-0000-0000-BEC7-72A759D10E2D", 0, 1520622150, null, 1520622150, null, "{ }", "2016-01-31T00:00:00", "8.22", "6.89", "7.25", "7.47", "7.39", "8.43", "7.6", "8.37", "7.07", "7.24", "8.25", "7.91", "7.24", "7.07", "6.68", "7.11", "7.85" ]
+, [ "row-svrc_mtad_njte", "00000000-0000-0000-DB3D-B6CA7B860C78", 0, 1520622150, null, 1520622150, null, "{ }", "2016-02-29T00:00:00", "4.02", "3.78", "4.12", "3.67", "4.02", "4.07", "3.63", "4.32", "5.31", "4.28", "4.37", "4.72", "4.57", "5.31", "4.42", "5.47", "4.65" ]
+, [ "row-2j43-rzrp-xmid", "00000000-0000-0000-BE4F-159F2278AB39", 0, 1520622150, null, 1520622150, null, "{ }", "2016-03-31T00:00:00", "6.05", "4.91", "5.51", "5.58", "5.23", "5.96", "5.52", "4.8", "5.85", "5.55", "6.11", "6.1", "5.32", "5.85", "5.27", "5.55", "5.92" ]
+, [ "row-yxp3-if5s_mgk6", "00000000-0000-0000-6344-A63F45179E78", 0, 1520622150, null, 1520622150, null, "{ }", "2016-04-30T00:00:00", "1.6", "1.45", "1.33", "1.56", "1.29", "1.39", "1.32", "1.36", "1.38", "1.65", "1.39", "1.69", "1.46", "1.38", "1.34", "1.43", "1.86" ]
+, [ "row-jwm6~p3ey.4viq", "00000000-0000-0000-1BAF-CA4809DB6129", 0, 1520622150, null, 1520622150, null, "{ }", "2016-05-31T00:00:00", "1.4", "1.79", "1.43", "1.86", "0.7", "1.05", "0.72", "1.3", "0.88", "1.36", "1.01", "0.75", "0.88", "0.88", "1.02", "1.23", "1.86" ]
+, [ "row-8q55~3rvc~2uu7", "00000000-0000-0000-F2B9-86814BB97BA4", 0, 1520622150, null, 1520622150, null, "{ }", "2016-06-30T00:00:00", "1.63", "1.53", "1.75", "1.64", "1.26", "1.57", "1.4", "1.34", "1.73", "1.09", "1.17", "1.22", "1.41", "1.73", "1.37", "1.91", "1.76" ]
+, [ "row-y2si_wg66_qiud", "00000000-0000-0000-C240-7B377AD83C30", 0, 1520622150, null, 1520622150, null, "{ }", "2016-07-31T00:00:00", "0.61", "0.52", "0.58", "0.57", "0.66", "0.72", "0.62", "0.62", "0.46", "0.53", "0.75", "0.64", "0.54", "0.19", "0.59", "0.48", "0.63" ]
+, [ "row-87zu-tf25.95k2", "00000000-0000-0000-CDF8-F98E276DEFCA", 0, 1520622150, null, 1520622150, null, "{ }", "2016-08-31T00:00:00", "0.34", "0.03", "0.03", "0.22", "0.04", "0.14", "0.09", "0.17", "0.02", "0.12", "0.13", "0.06", "0.01", "0", "0.04", "0.08", "0.03" ]
+, [ "row-ddjx~4t34.vhst", "00000000-0000-0000-7428-F189BE66A882", 0, 1520622150, null, 1520622150, null, "{ }", "2016-09-30T00:00:00", "1.85", "1.5", "1.37", "1.47", "0.69", "1.59", "1.34", "1.27", "0.87", "0.98", "1.29", "0.97", "0.95", "0", "0.68", "1.07", "1.07" ]
+, [ "row-p73u_59tv.c5kx", "00000000-0000-0000-0D55-41DB10F407D0", 0, 1520622150, null, 1520622150, null, "{ }", "2016-10-31T00:00:00", "10.53", "10.4", "9.86", "9.92", "9.74", "10.45", "9.19", "9.14", "10.37", "9.76", "10.32", "11.03", "10.34", "10.36", "8.1", "10.51", "11.13" ]
+, [ "row-49j2~d3z6~zdvh", "00000000-0000-0000-3D55-39E791F10D08", 0, 1520622150, null, 1520622150, null, "{ }", "2016-11-30T00:00:00", "9.03", "8.17", "8.07", "7.49", "6.7", "8.37", "7.52", "7.38", "7.49", "7.85", "8.14", "8.06", "7.49", "7.49", "7.43", "7.95", "7.6" ]
+, [ "row-df9b~22dk-u2gg", "00000000-0000-0000-F253-1FE6F1DAF853", 0, 1520622150, null, 1520622150, null, "{ }", "2016-12-31T00:00:00", "4.54", "3.75", "3.69", "4.19", "3.32", "4.21", "3.92", "4.16", "3.74", "3.4", "3.78", "3.89", "3.7", "3.74", "3.67", "3.93", "3.7" ]
+, [ "row-3a5z.5r7k.jm4w", "00000000-0000-0000-FFBB-ED95872E4895", 0, 1520622150, null, 1520622150, null, "{ }", "2017-01-31T00:00:00", "4.24", "4.08", "4.03", "3.95", "4.03", "4.51", "4", "4.19", "3.95", "4.01", "4.2", "4.28", "4.06", "3.95", "3.98", "4.02", "4.02" ]
+, [ "row-k3a8-h9r2_pg7h", "00000000-0000-0000-D7BF-7CDBA19E5746", 0, 1520622150, null, 1520622150, null, "{ }", "2017-02-28T00:00:00", "8.36", "8.52", "8.18", "8.11", "8.49", "8.08", "7.9", "8.45", "9.63", "8.91", "8.64", "9.1", "8.71", "8.84", "8.2", "8.76", "9.43" ]
+, [ "row-ry96-cuza_usm6", "00000000-0000-0000-E062-3A1D864DC255", 0, 1520622150, null, 1520622150, null, "{ }", "2017-03-31T00:00:00", "7.19", "6.77", "6.59", "6.71", "6.31", "7", "6.54", "7.2", "7.33", "6.53", "7.15", "7.02", "6.64", "6.92", "5.7", "7.38", "6.68" ]
+, [ "row-5c57_79ji-qiee", "00000000-0000-0000-19CF-8E615BFE96E8", 0, 1520622150, null, 1520622150, null, "{ }", "2017-04-30T00:00:00", "4.84", "4.07", "3.98", "4.32", "3.03", "4.66", "3.75", "4.58", "4.1", "4.44", "4.34", "3.92", "3.52", "3.94", "3.22", "4.31", "4.23" ]
+, [ "row-3idp_g3cr_esbk", "00000000-0000-0000-FC4E-2A50DC39EC9C", 0, 1520622150, null, 1520622150, null, "{ }", "2017-05-31T00:00:00", "0", "0", "0.01", "0.01", "0", "0", "0", "0.02", "0.14", "0.01", "0", "0.02", "0.03", "0.02", "0.01", "0.06", "0" ]
+ ]
+}
