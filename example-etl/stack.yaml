@@ -77,5 +77,4 @@ extra-deps:
 - dataenc-0.14.0.7@sha256:60bc0e50bb8098cf885b62828ca44bab5759bb86455886be58efa4433af0d749,1651
 - time-units-1.0.0@sha256:27cf54091c4a0ca73d504fc11d5c31ab4041d17404fe3499945e2055697746c1,928
 nix:
-  default: false
-  packages: [pkgconfig, cairo, zlib, pango, xorg.xproto, xorg.libX11, gtk2, gtk3]
+  packages: [pkgconfig, cairo, zlib, pango, gtk2, gtk3, gd]
